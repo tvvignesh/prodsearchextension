@@ -1,0 +1,1 @@
+var title=$('.fk-stars-small')..attr("title");

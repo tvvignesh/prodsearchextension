@@ -1,0 +1,63 @@
+<html>
+<head>
+<script src="jquery-1.6.2.min.js"></script>
+<script src="main.js"></script>
+<style type="text/css">
+#ld
+{
+display:none;
+}
+</style>
+</head>
+<div id="aa">
+<div id="parent" style="background-color:lightgray">
+<div id="top" align="left"><font size="6" face="Garmond,Comic Sans MS" color="green"><center><b>WhiZ</b> </font><font size="6" face="Garmond,Comic Sans MS" color="#9900FF"><b>Search</b></center></font>
+</div><div id="back" style="background-color:lightgray">
+<div id="enclose" style="background-color:gray;">
+<center>
+<table border="1" cellpadding ="10">
+<tr><td><form name="sel"><center>
+<br>&nbsp&nbsp&nbsp&nbsp<font color="white">Category:</font>&nbsp;&nbsp;&nbsp&nbsp;&nbsp&nbsp;&nbsp;&nbsp
+</br></center></td>
+<td><center>
+<select name="category" id="catSelect">
+<option>Books</option>
+<option>Mobiles & Accessories</option>
+<option>Computers</option>
+<option>Cameras</option>
+<option>Games & Consoles</option>
+<option>Movies & TV Shows</option>
+<option>Music</option>
+<option>Mp3 Players & IPods</option>
+<option>Personal & Health Care</option>
+<option>Home Appliances</option>
+<option>TVs & Video Players</option>
+</select></center>
+</td><br>
+</tr>
+<tr>
+<td><center>
+<font color="white">Product Name:</font></td><td><input type="text" name="proname" size="22.5" id="prodName"><br>
+<center></td></tr></table>
+<div align="center">
+<font color="white">Sort by:</font>
+<select name="sort" id="relevanceSelect">
+<option value="relevance">Relevance</option>
+<option value="price_asc">Price(Low to High)</option>
+<option value="price_desc">Price(High to Low)</option>
+</select>
+</div>
+<div id="ld">
+<div align="center">Loading...<br><img src="loading.gif"></div>
+</div>
+</div>
+<center>
+<input type="radio" name="myradio" value="Flip Kart" checked style="display:none;"/>
+&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="myradio" value="Ebay" style="display:none;"/>
+<br>
+<input type="button" value="WhiZ Search" id="searchBtn">
+</form><hr></center>
+</div>
+</div></div>
+<div id="com"></div>
+</html>

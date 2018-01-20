@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "Product Search",
+  "version": "1.0",
+  "description": "Get the best of all the products",
+  "browser_action": 
+  {
+    "default_icon": "icon.png",
+	  "default_title": "Product Search",      // optional; shown in tooltip
+    "default_popup":"popup.html"
+  },
+ "permissions":[
+    "contextMenus","tabs", "http://*/*", "https://*/*"
+  ],
+  "icons": 
+  {
+    "16": "icon.png"
+  },
+  "options_page": "options.html",
+  "background": {
+    "page": "background.html"
+  }
+}
